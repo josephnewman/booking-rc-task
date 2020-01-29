@@ -1,0 +1,83 @@
+{
+  "results": {
+    "isGooglePowered": false,
+    "docs": [
+      {
+        "country": "United Kingdom",
+        "lng": -2.27472,
+        "city": "Manchester",
+        "searchType": "L",
+        "alternative": ["GB,UK,England,Manchester Airport"],
+        "index": 1,
+        "bookingId": "airport-38566",
+        "placeType": "A",
+        "placeKey": "1472187",
+        "iata": "MAN",
+        "countryIso": "gb",
+        "locationId": "38566",
+        "name": "Manchester Airport",
+        "ufi": 900038550,
+        "isPopular": true,
+        "region": "Greater Manchester",
+        "lang": "en",
+        "lat": 53.3536
+      },
+      {
+        "country": "United Kingdom",
+        "lng": -2.23615,
+        "searchType": "L",
+        "alternative": ["GB,UK,England"],
+        "index": 2,
+        "bookingId": "city-2623580",
+        "placeType": "C",
+        "placeKey": "441725",
+        "countryIso": "gb",
+        "locationId": "20951",
+        "name": "Manchester",
+        "ufi": -2602512,
+        "isPopular": false,
+        "region": "Greater Manchester",
+        "lang": "en",
+        "lat": 53.4812
+      },
+      {
+        "country": "United Kingdom",
+        "lng": -2.2309,
+        "city": "Manchester",
+        "searchType": "L",
+        "alternative": ["GB,UK"],
+        "index": 3,
+        "bookingId": "train-1158",
+        "placeType": "T",
+        "placeKey": "992437021",
+        "countryIso": "gb",
+        "locationId": "129213",
+        "name": "Manchester - Piccadilly Train Station",
+        "ufi": 1158,
+        "isPopular": false,
+        "region": "England",
+        "lang": "en",
+        "lat": 53.4767
+      },
+      {
+        "lng": -4.63451,
+        "city": "Derbyhaven",
+        "searchType": "L",
+        "alternative": ["IM"],
+        "index": 4,
+        "bookingId": "airport-19471",
+        "placeKey": "1472264",
+        "iata": "IOM",
+        "countryIso": "im",
+        "locationId": "19471",
+        "name": "Ronaldsway Airport",
+        "ufi": 900038781,
+        "isPopular": false,
+        "region": "Isle of Man",
+        "lang": "en",
+        "lat": 54.0868
+      }
+    ],
+    "numFound": 155787
+  }
+}

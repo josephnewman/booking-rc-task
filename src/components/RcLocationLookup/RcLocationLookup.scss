@@ -1,0 +1,94 @@
+@import '../../assets/colors';
+
+.rc-location-lookup {
+  position: relative;
+
+  &__label {
+    color: $color-dark-grey;
+    font-size: 14px;
+    line-height: 1.25rem;
+  }
+
+  &__input {
+    margin-top: 5px;
+  }
+
+  &__dropdown {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: $color-white;
+    border-radius: 5px;
+    list-style: none;
+    box-shadow: 0 1px 2px rgba($color-black, 0.2);
+    overflow: hidden;
+  }
+
+  &__dropdown-visible {
+    display: block;
+  }
+
+  &__dropdown-item {
+    display: flex;
+    padding: 15px 5px;
+    border-top: 1px solid $color-light-grey;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:first-of-type {
+      border-top: none;
+    }
+  }
+
+  &__dropdown-item-focused {
+    background-color: $color-light-blue;
+  }
+
+  &__place-container {
+    padding: 0 15px;
+  }
+
+  &__description-container {
+    padding: 0 10px;
+  }
+
+  &__location-line {
+    font-size: 12px;
+  }
+
+  &__place {
+    width: 60px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: $color-grey;
+    color: $color-white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px;
+  }
+
+  &__place-airport {
+    background-color: $color-red;
+  }
+
+  &__place-city {
+    background-color: $color-blue;
+  }
+
+  &__place-region {
+    background-color: $color-yellow;
+    color: $color-darkest-grey;
+  }
+
+  &__place-place {
+    background-color: $color-orange;
+    color: $color-darkest-grey;
+  }
+
+  &__place-district {
+    background-color: $color-green;
+  }
+}
