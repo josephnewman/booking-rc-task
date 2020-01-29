@@ -1,0 +1,32 @@
+{
+  "extends": ["airbnb", "prettier", "prettier/react", "plugin:jest/recommended"],
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/prop-types": 0,
+    "no-underscore-dangle": 0,
+    "react/jsx-props-no-spreading": 0,
+    "import/imports-first": ["error", "absolute-first"],
+    "import/newline-after-import": "error",
+    "import/prefer-default-export": 0,
+    "semi": "error",
+    "indent": 2,
+    "max-len": ["error", { "code": 120, "ignoreUrls": true }],
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "labelComponents": ["CustomInputLabel"],
+        "labelAttributes": ["label"],
+        "controlComponents": ["CustomInput"],
+        "depth": 3
+      }
+    ]
+  },
+  "parser": "babel-eslint",
+  "env": { "browser": true, "node": true }
+}
